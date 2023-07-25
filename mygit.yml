@@ -1,0 +1,14 @@
+---
+- name: My git
+  hosts: all
+  gather_facts: yes
+  become: yes  # Add this line to escalate privileges
+
+  tasks:
+    - name: I want to ping
+      ping:
+
+    - name: I want to install webserver
+      apt:
+        name: git
+        state: present

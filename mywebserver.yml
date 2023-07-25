@@ -1,0 +1,19 @@
+---
+- name: My webserver
+  hosts: all
+  gather_facts: yes
+  become: yes  # Add this line to escalate privileges
+
+  tasks:
+    - name: I want to ping
+      ping:
+
+    - name: I want to install webserver
+      apt:
+        name: git
+        state: present
+
+    - name: I want to start webserver on ubuntu nodes
+      service:
+        name: apache2
+        state: started

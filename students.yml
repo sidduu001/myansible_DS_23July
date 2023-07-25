@@ -1,0 +1,22 @@
+---
+- Students:
+  -Name: Anil
+   Phone: 944446465
+   Address:
+      Door no: 2
+      Street no: 3rd
+      Sector: 20
+
+  -Name: Sunil
+   Phone: 62651651
+   Address:
+     Door no: 1
+     Street: 4th
+     Sector: 22
+
+  -Name: Vineel
+   Phone: 569841652
+   Address: 
+     Door no: 3
+     Street: 8th
+     Sector: 15
