@@ -14,3 +14,8 @@
 172.31.14.195
 172.31.28.72
 
+
+[mywebservers:vars]
+key=value
+mywebpackonubuntu= apache2
+mywebpackonredhat= httpd
