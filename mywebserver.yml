@@ -1,6 +1,6 @@
 ---
 - name: My webserver
-  hosts: all
+  hosts: mywebservers
   gather_facts: yes
   become: yes  # Add this line to escalate privileges
 
