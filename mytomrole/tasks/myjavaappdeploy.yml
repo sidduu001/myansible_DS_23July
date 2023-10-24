@@ -1,0 +1,6 @@
+---
+- name: deploy java app on 100s of production nodes
+  get_url:
+     url: https://sidawsbucket001.s3.us-east-2.amazonaws.com/mahaLogin-3.0.war
+     dest: /opt/tomcat/webapps/mahaLogin-3.0.war
+     force_basic_auth: yes
